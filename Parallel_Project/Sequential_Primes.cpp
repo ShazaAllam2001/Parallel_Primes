@@ -22,3 +22,11 @@ bool* SieveOfEratosthenes_sequential(int n) {
     }
     return prime;
 }
+
+void printArray(bool* prime, int n) {
+    for(int i=2; i<n; i++) {
+        if(prime[i] == true)
+            std::cout << i << ", ";
+    }
+    std::cout << "\n";
+}
