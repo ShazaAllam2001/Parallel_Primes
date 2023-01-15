@@ -33,13 +33,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Parallel_Primes.cpp" />
+		<Unit filename="Parallel_Primes.hpp" />
 		<Unit filename="Sequential_Primes.cpp" />
+		<Unit filename="Sequential_Primes.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="thread_struct.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

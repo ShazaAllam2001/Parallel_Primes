@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1673786957 source:/home/salah/Documents/Parallel_Primes/Parallel_Project/Parallel_Primes.cpp
+	"thread_struct.h"
+	"Parallel_Primes.hpp"
+
+1673784428 /home/salah/Documents/Parallel_Primes/Parallel_Project/thread_struct.h
+
+1673786417 source:/home/salah/Documents/Parallel_Primes/Parallel_Project/main.cpp
+	<iostream>
+	<ctime>
+	<ratio>
+	<chrono>
+	"Sequential_Primes.hpp"
+	"Parallel_Primes.hpp"
+
+1673784944 /home/salah/Documents/Parallel_Primes/Parallel_Project/Sequential_Primes.cpp
+	"Sequential_Primes.hpp"
+
+1673784942 /home/salah/Documents/Parallel_Primes/Parallel_Project/Sequential_Primes.hpp
+	<bits/stdc++.h>
+
+1673786338 /home/salah/Documents/Parallel_Primes/Parallel_Project/Parallel_Primes.cpp
+	"thread_struct.h"
+	"Parallel_Primes.hpp"
+
+1673786362 /home/salah/Documents/Parallel_Primes/Parallel_Project/Parallel_Primes.hpp
+	<bits/stdc++.h>
+	<pthread.h>
+	<vector>
+
+1673784944 source:/home/salah/Documents/Parallel_Primes/Parallel_Project/Sequential_Primes.cpp
+	"Sequential_Primes.hpp"
+

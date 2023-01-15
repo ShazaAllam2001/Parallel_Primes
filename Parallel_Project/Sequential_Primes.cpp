@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include "Sequential_Primes.hpp"
 
 /*
     Sequential implementation
