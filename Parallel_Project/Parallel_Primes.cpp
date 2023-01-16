@@ -15,7 +15,7 @@ bool* SieveOfEratosthenes_parallel(int n) {
     // initialize it with true
     std::vector<pthread_t> threads;
     bool* prime = (bool*) malloc((n + 1)*sizeof(bool));
-    memset(prime, true, sizeof(prime));
+    memset(prime, true, (n + 1)*sizeof(bool));
 
     for(int p = 2; p*p <= n; p++) {
         // check the unchanged values of primes

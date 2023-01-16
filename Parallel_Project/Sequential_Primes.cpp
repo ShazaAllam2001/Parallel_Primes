@@ -8,8 +8,8 @@
 bool* SieveOfEratosthenes_sequential(int n) {
     // create a boolean array for prime numbers
     // initialize it with true
-    bool prime[n + 1];
-    memset(prime, true, sizeof(prime));
+    bool* prime = (bool*) malloc((n + 1)*sizeof(bool));
+    memset(prime, true, (n + 1)*sizeof(bool));
 
     for(int p = 2; p*p <= n; p++) {
         // check the unchanged values of primes
@@ -24,9 +24,10 @@ bool* SieveOfEratosthenes_sequential(int n) {
 }
 
 void printArray(bool* prime, int n) {
-    for(int i=2; i<n; i++) {
-        if(prime[i] == true)
+    for(int i=2; i<=n; i++) {
+        if(prime[i] == true) {
             std::cout << i << ", ";
+        }
     }
     std::cout << "\n";
 }
